@@ -18,3 +18,10 @@ Example:
 In that example, the word "However" is the transition word because it connects two sentences.
 
 Transition words usually contain a comma (,) at the end.
+
+## Abbreviation
+
+Always explain the abbreviation the first time you use it in a document. In other words, write out the full phrase and introduce the abbreviation in parentheses. For all subsequent uses in the same document, you can use just the abbreviation.
+
+Example:
+> If you receive a Looks Good to Me (LGTM) comment from your peer, your work is usually ready for production. However, you must address AI review feedback even if you got an LGTM from your peer.
