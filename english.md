@@ -19,6 +19,18 @@ In that example, the word "However" is the transition word because it connects t
 
 Transition words usually contain a comma (,) at the end.
 
+## Less Is More
+
+Remove noise as much as possible.
+Avoid unnecessary decorative words.
+Do not stack words with similar meanings.
+
+Bad Example:
+> In order to successfully achieve our ultimate strategic goals, we must comprehensively and thoroughly analyze all available data metrics to completely optimize our overarching core framework.
+
+Good Example:
+> To achieve our goals, we must analyze the data to optimize our framework.
+
 ## No Dense Information
 
 Take a look at this example:
