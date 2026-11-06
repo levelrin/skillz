@@ -22,7 +22,9 @@ Transition words usually contain a comma (,) at the end.
 ## Less Is More
 
 Remove noise as much as possible.
+
 Avoid unnecessary decorative words.
+
 Do not stack words with similar meanings.
 
 Bad Example:
@@ -37,9 +39,13 @@ Take a look at this example:
 > GitHub is a cloud-based developer platform where software engineers store, manage, track, and collaborate on computer code.
 
 Because GitHub has many features, this sentence tries to capture everything in one sentence.
+
 However, don't cram too much information into one sentence.
+
 Please simplify the information by removing everything except one essential point for the target audience.
+
 You may give a hint that there is other information and explain it separately.
+
 In this case, let’s say the target audience is a developer who wants to learn what they can do with GitHub.
 
 Here is a better version:
