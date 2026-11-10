@@ -6,6 +6,16 @@ In other words, you must use the terms used by end users, not by this project's 
 
 Do not invent a name for the sake of programming.
 
+However, you can switch the domain to low-level infrastructure concepts.
+
+For example, let's say you need to make an HTTP request to send a message from one user to another.
+
+In that case, you can create a class named `Http` to serve users.
+
+Still, you must not invent a name outside the HTTP domain, such as `HttpUser`.
+
+In other words, make a clear distinction between domains.
+
 ## Method Name
 
 A method name must be either a noun or a verb.
