@@ -1,3 +1,15 @@
+## Package by Domain
+
+Organize files by domain only.
+
+Do not organize files by layers, such as UI, network, etc.
+
+While you must structure the project by business domain, you may switch to an infrastructure-level domain, such as HTTP, file system, etc.
+
+Distinguish each domain strictly.
+
+In other words, do not nest domain directories.
+
 ## Class Name
 
 A class name must represent an object in the domain.
