@@ -46,6 +46,18 @@ Do not use terms used only by this project's developers.
 
 For example, a method name `changePassword` is better than `setPassword` because it sounds more natural to end users.
 
+## No Global Scope
+
+Do not create globally scoped variables, methods, or objects.
+
+The only exception is the entry-point function that starts the application.
+
+If you need to pass dependencies, just pass them through parameters.
+
+Do not use a dependency injection container or other patterns for dependency management, even if you end up with prop-drilling (passing many parameters).
+
+Do not create helper/utility functions at the module level either.
+
 ## Test Description
 
 The test description must be a plain English sentence that end users can understand.
