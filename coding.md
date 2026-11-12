@@ -58,6 +58,28 @@ Do not use a dependency injection container or other patterns for dependency man
 
 Do not create helper/utility functions at the module level either.
 
+## No Nullable
+
+Do not return a nullable type.
+
+An outcome of a method or function must be a solid object.
+
+Use validation methods instead of returning a nullable type.
+
+Do not return a container type, such as `Optional` in Java, either.
+
+The point is that you must provide domain context via validation methods.
+
+Null is solely a programming concept that provides no context, which is why you must avoid it.
+
+That does not mean you should pollute the codebase by using validation methods everywhere.
+
+Use the validation method at the very beginning to make sure the returned value is solid.
+
+The rest of the logic should trust the value.
+
+Handling nulls is okay when you inevitably encounter nullable types from the SDK.
+
 ## Test Description
 
 The test description must be a plain English sentence that end users can understand.
