@@ -89,3 +89,25 @@ Handling nulls is okay when you inevitably encounter nullable types from the SDK
 The test description must be a plain English sentence that end users can understand.
 
 In other words, do not use any technical terms intended only for this project's developers.
+
+## Fake Object
+
+When you write a unit test, your logic may rely on external communication, such as network calls or file access.
+
+You must use fake objects in those situations.
+
+For example, let's say you want to test whether the user's name is displayed correctly.
+
+First, you need to fetch the user's name from the server through a REST API.
+
+Then, you can display the user's name.
+
+To do that, the user object needs to make an HTTP request.
+
+In that case, you can create a fake server object and use it as the user's dependency.
+
+Obviously, the fake server must not send an actual HTTP request.
+
+Instead, it returns a hard-coded fake value to the user object.
+
+By the way, you don’t need to create fake objects if they don't communicate with external entities.
