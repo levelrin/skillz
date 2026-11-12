@@ -46,6 +46,10 @@ Do not use terms used only by this project's developers.
 
 For example, a method name `changePassword` is better than `setPassword` because it sounds more natural to end users.
 
+For validation methods, use an adjective.
+
+For example, you should use `user.authenticated` rather than `user.isAuthenticated`.
+
 ## No Global Scope
 
 Do not create globally scoped variables, methods, or objects.
