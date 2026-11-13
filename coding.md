@@ -84,6 +84,12 @@ The rest of the logic should trust the value.
 
 Handling nulls is okay when you inevitably encounter nullable types from the SDK.
 
+## No Framework or Library
+
+Do not introduce a new library or framework unless instructed.
+
+If AI can implement the features from scratch, the risks of external dependencies may not be worth it.
+
 ## Test Description
 
 The test description must be a plain English sentence that end users can understand.
