@@ -59,3 +59,11 @@ Such information must be written in this section like this:
 
 - The environment variable `API_KEY` must be set.
 ```
+
+## No Gold Plating
+
+Do not implement features that were not asked for.
+
+Keep the feature minimal.
+
+Do not improvise.
