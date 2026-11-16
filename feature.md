@@ -19,6 +19,7 @@ In that case, we must restructure the files as follows: `features/authentication
 
 The specification must have the following sections, at least:
 - Use Case
+- Algorithm
 
 ## Use Case
 
@@ -55,6 +56,22 @@ Such information must be written in the `Prerequisites` section like this:
 ## Prerequisites
 
 - The environment variable `API_KEY` must be set.
+```
+
+## Algorithm
+
+Explain how the feature is technically implemented under the hood.
+
+However, do not explain the algorithm in terms of low-level programming terms, such as raw class, method, or variable names.
+
+Instead, use the technical domain terms to explain it conceptually.
+
+The algorithm section must look like this:
+```markdown
+
+## Algorithm
+
+[Insert Mermaid Flowchart]
 ```
 
 ## No Gold Plating
