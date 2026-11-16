@@ -6,10 +6,14 @@ You must follow the rules in this document when you finish modifying your code.
 
 Run unit tests and ensure no test cases are broken.
 
-When you run the test command, suppress all intermediate output except the final report to avoid polluting the context window.
+When you run the test command, minimize the output to avoid polluting the context window.
 
-The final report must be a simple output showing the number of passed and failed tests (with file paths for failed cases).
+The test output must show the number of passed and failed tests.
+
+For failed tests, include the file path and error message (e.g., stack trace) to help you resolve the issue.
 
 ## Documentation
 
 Ensure feature documents match the actual implementations.
+
+If a feature has no documentation, you must create it.
