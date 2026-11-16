@@ -15,15 +15,12 @@ For example, let's say we have one specification like this: `features/password-a
 Later, we decide to add one more authentication type: TOTP. <br>
 In that case, we must restructure the files as follows: `features/authentication/password.md` and `features/authentication/totp.md`.
 
+## Mandatory Sections
+
+The specification must have the following sections, at least:
+- Use Case
+
 ## Use Case
-
-A specification file must have at least the following sections: use case.
-
-Let's consider the following scenario:
-1. The user opens the application (the login page will be displayed).
-2. The user enters their username and password and taps the `login` button.
-3. If authentication succeeds, the user is navigated to the home page. \
-   If authentication fails, the user sees the error message "Authentication Failed."
 
 The use case section must be written like this:
 ```markdown
@@ -38,14 +35,14 @@ If the feature requires the application to access external entities, we must inc
 ```markdown
 ## Sequence Diagram
 
-[Insert Mermaid Sequence Diagram]
+[Insert Mermaid]
 
 ### Step 4 - Authentication API
 
 [Insert Details]
 ```
 
-The `Step 4 - Authentication API` section may look random, but you will understand it better after reading the rules for creating a Mermaid sequence diagram.
+The `Step 4 - Authentication API` section may look random, but you will understand it better after reading the [Mermaid Sequence Diagram](mermaid-sequence.md) document.
 
 ## Prerequisites
 
@@ -53,7 +50,7 @@ To complete the user story, we may need to prepare something.
 
 For example, the logic may need to access the environment variable `API_KEY`.
 
-Such information must be written in this section like this:
+Such information must be written in the `Prerequisites` section like this:
 ```markdown
 ## Prerequisites
 
@@ -65,5 +62,3 @@ Such information must be written in this section like this:
 Do not implement features that were not asked for.
 
 Keep the feature minimal.
-
-Do not improvise.
