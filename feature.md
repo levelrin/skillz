@@ -79,3 +79,13 @@ The algorithm section must look like this:
 Do not implement features that were not asked for.
 
 Keep the feature minimal.
+
+## Explicit Path
+
+If a directory or a file path is involved, make the path explicit.
+
+Bad Example:
+> Save the user preference.
+
+Good Example:
+> Save the user preference to `preference.json` in the current directory.
