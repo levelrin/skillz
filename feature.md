@@ -80,12 +80,19 @@ Do not implement features that were not asked for.
 
 Keep the feature minimal.
 
-## Explicit Path
+## Explicit File Path
 
-If a directory or a file path is involved, make the path explicit.
+If a directory or file path is involved, make it explicit.
 
 Bad Example:
-> Save the user preference.
+> Log the error message.
 
 Good Example:
-> Save the user preference to `preference.json` in the current directory.
+> Log the error message in `logs/[current_datetime].log`.
+
+## Explicit JSON Path
+
+If JSON is involved, make the JSON path explicit.
+
+Bad Example:
+> Display the username from `user.json` with `$.name`.
